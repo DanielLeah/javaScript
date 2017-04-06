@@ -9,4 +9,6 @@ Program rezolvat ecuatie de grad 2
 ## Programe Smartwatch
 
 
-Daniel David Leah
+Contact: Daniel Leah
+daniel.leah94@gmail.com
+
