@@ -18,6 +18,7 @@ function speek()
 {
 	var valoare=document.getElementById("text").value;
 	var ut = new SpeechSynthesisUtterance();
+	ut.rate=10;
 	ut.text=valoare;
 	synt.speak(ut);
 }
