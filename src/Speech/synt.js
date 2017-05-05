@@ -10,3 +10,14 @@ var p=document.getElementById("voci");
 	 p.innerHTML+=voices[i].name+":"+voices[i].lang+"<br>";
  }
 }
+
+
+
+
+function speek()
+{
+	var valoare=document.getElementById("text").value;
+	var ut = new SpeechSynthesisUtterance();
+	ut.text=valoare;
+	synt.speak(ut);
+}
