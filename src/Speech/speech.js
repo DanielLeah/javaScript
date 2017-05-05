@@ -23,6 +23,6 @@ recognition.onspeechend=on_end();
 recognition.onresult=function (e)
 {
 	
-	document.getElementById("text").innerHTML=e.result[0][0].transcript;
+	document.getElementById("text").innerHTML=e.result[0][0].transcript+":"+e.result[0][0].confidance;
 	
 }
